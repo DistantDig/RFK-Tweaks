@@ -1,0 +1,27 @@
+{
+    "tier.tiered.magic_weapons.cursed": "Cursed",
+    "tier.tiered.magic_weapons.volatile": "Volatile",
+
+    "tier.tiered.magic_weapons.rare": "Rare",
+    "tier.tiered.magic_weapons.epic": "Epic",
+    "tier.tiered.magic_weapons.legendary": "Legendary",
+
+    "tier.tiered.magic_armors.blessed": "Blessed",
+    "tier.tiered.magic_armors.warded": "Warded",
+
+    "tier.tiered.infusions.water_infused": "Water Infused",
+    "tier.tiered.infusions.arcane_infused": "Arcane Infused",
+    "tier.tiered.infusions.fire_infused": "Fire Infused",
+    "tier.tiered.infusions.frost_infused": "Frost Infused",
+    "tier.tiered.infusions.air_infused": "Air Infused",
+    "tier.tiered.infusions.earth_infused": "Earth Infused",
+    "tier.tiered.infusions.light_infused": "Light Infused",
+
+    "tier.tiered.infusions.water_infused_melee": "Water Infused",
+    "tier.tiered.infusions.arcane_infused_melee": "Arcane Infused",
+    "tier.tiered.infusions.fire_infused_melee": "Fire Infused",
+    "tier.tiered.infusions.frost_infused_melee": "Frost Infused",
+    "tier.tiered.infusions.air_infused_melee": "Air Infused",
+    "tier.tiered.infusions.earth_infused_melee": "Earth Infused",
+    "tier.tiered.infusions.light_infused_melee": "Light Infused"
+}
