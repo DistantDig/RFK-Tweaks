@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "order": 100,
+  "slots": [
+    "spell_book",
+    "spell_trinket",
+    "spell_quiver",
+    "spell_scroll"
+  ],
+  "icon": "spell_engine:gui/group/spell"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "spell_book",
+    "spell_quiver",
+    "spell_trinket",
+    "spell_scroll"
+  ]
+}
