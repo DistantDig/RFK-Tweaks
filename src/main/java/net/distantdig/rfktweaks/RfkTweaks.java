@@ -2,6 +2,7 @@ package net.distantdig.rfktweaks;
 
 import com.mojang.logging.LogUtils;
 import net.distantdig.rfktweaks.particle.ParticleRegistry;
+import net.distantdig.rfktweaks.particle.signs.SignExclamation;
 import net.distantdig.rfktweaks.particle.signs.SignGilder;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -69,6 +70,7 @@ public class RfkTweaks {
         @SubscribeEvent
         public static void registerParticleFactories(final RegisterParticleProvidersEvent event) {
             event.registerSpriteSet(ParticleRegistry.GILDER_PARTICLE.get(), SignGilder.Provider::new);
+            event.registerSpriteSet(ParticleRegistry.EXCLAMATION_PARTICLE.get(), SignExclamation.Provider::new);
         }
     }
 }

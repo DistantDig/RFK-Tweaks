@@ -15,6 +15,8 @@ public class ParticleRegistry {
 
     public static final Supplier<SimpleParticleType> GILDER_PARTICLE =
             PARTICLE_TYPES.register("sign_gilder", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> EXCLAMATION_PARTICLE =
+            PARTICLE_TYPES.register("sign_exclamation", () -> new SimpleParticleType(true));
 
     public static void register(IEventBus eventBus) {
         PARTICLE_TYPES.register(eventBus);
