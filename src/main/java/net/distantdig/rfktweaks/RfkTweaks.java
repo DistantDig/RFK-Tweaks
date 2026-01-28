@@ -2,7 +2,7 @@ package net.distantdig.rfktweaks;
 
 import com.mojang.logging.LogUtils;
 import net.distantdig.rfktweaks.particle.ParticleRegistry;
-import net.distantdig.rfktweaks.particle.SignGilder;
+import net.distantdig.rfktweaks.particle.signs.SignGilder;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
