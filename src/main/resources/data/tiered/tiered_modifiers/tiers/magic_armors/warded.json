@@ -1,0 +1,40 @@
+{
+  "replace": true,
+  "weight": 3,
+  "reforge_experience_cost": 8,
+  "reforge_durability_cost": 4,
+  "reforge_item": "tiered:armorers_hammer",
+  "style": {
+    "color": "aqua"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:resistance.generic",
+      "modifier": {
+        "id": "tiered:spell_resistance",
+        "operation": "ADD_VALUE",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "toxony:generic.effect_reduction",
+      "modifier": {
+        "id": "tiered:effect_reduction",
+        "operation": "ADD_VALUE",
+        "amount": 1.0
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

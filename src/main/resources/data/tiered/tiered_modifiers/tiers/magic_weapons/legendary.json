@@ -1,0 +1,45 @@
+{
+  "replace": true,
+  "weight": 1,
+  "reforge_experience_cost": 10,
+  "reforge_durability_cost": 5,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "generic.luck",
+      "modifier": {
+        "id": "tiered:legendary_weapon_2",
+        "operation": "ADD_VALUE",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "id": "tiered:spell_power",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "id": "tiered:spell_haste",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

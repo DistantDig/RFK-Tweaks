@@ -1,0 +1,22 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "rpg_series:weapon_type/damage_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_wand"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_wand"
+    }
+  ],
+  "tiers": [
+    "tiered:magic_weapons/rare",
+    "tiered:magic_weapons/epic",
+    "tiered:magic_weapons/legendary"
+  ]
+}

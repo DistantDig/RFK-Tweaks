@@ -1,0 +1,21 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "rpg_series:weapon_type/damage_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_wand"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_wand"
+    }
+  ],
+  "tiers": [
+    "tiered:magic_weapons/critical",
+    "tiered:magic_weapons/volatile"
+  ]
+}

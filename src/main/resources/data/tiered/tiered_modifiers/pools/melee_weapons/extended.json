@@ -1,0 +1,17 @@
+{
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "c:tools/mace"
+    },
+    {
+      "tag": "c:sword"
+    }
+  ],
+  "tiers": [
+    "tiered:melee_weapons/extended"
+  ]
+}

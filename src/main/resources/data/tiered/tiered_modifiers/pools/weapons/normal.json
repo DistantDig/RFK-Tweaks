@@ -1,0 +1,39 @@
+{
+  "replace": true,
+  "weight": 3,
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "c:tools/spears"
+    },
+    {
+      "tag": "c:tools/bows"
+    },
+    {
+      "tag": "c:tools/mace"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_wand"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_wand"
+    }
+  ],
+  "tiers": [
+    "tiered:standard_weapons/common"
+  ]
+}

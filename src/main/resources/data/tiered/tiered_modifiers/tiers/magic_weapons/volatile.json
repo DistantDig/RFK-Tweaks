@@ -1,0 +1,45 @@
+{
+  "replace": true,
+  "weight": 3,
+  "reforge_experience_cost": 3,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "red"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "id": "tiered:spell_critical_0",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": -0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:critical_chance",
+      "modifier": {
+        "id": "tiered:spell_critical_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:critical_damage",
+      "modifier": {
+        "id": "tiered:spell_critical_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

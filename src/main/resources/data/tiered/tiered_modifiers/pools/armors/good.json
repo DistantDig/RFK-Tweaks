@@ -1,0 +1,21 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "minecraft:head_armor"
+    },
+    {
+      "tag": "minecraft:chest_armor"
+    },
+    {
+      "tag": "minecraft:leg_armor"
+    },
+    {
+      "tag": "minecraft:foot_armor"
+    }
+  ],
+  "tiers": [
+    "tiered:magic_armors/warded",
+    "tiered:magic_armors/blessed"
+  ]
+}

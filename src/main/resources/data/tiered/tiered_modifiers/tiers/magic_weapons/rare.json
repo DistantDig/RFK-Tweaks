@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "weight": 4,
+  "reforge_experience_cost": 6,
+  "reforge_durability_cost": 3,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "id": "tiered:spell_power",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.03
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

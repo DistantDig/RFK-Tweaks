@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "weight": 2,
+  "reforge_experience_cost": 8,
+  "reforge_durability_cost": 4,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "light_purple"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:arcane",
+      "modifier": {
+        "id": "tiered:arcane_spell_power",
+        "operation": "ADD_VALUE",
+        "amount": 3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

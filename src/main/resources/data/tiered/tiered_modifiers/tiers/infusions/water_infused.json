@@ -1,0 +1,34 @@
+{
+  "replace": true,
+  "weight": 2,
+  "reforge_experience_cost": 8,
+  "reforge_durability_cost": 4,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "aqua"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:water",
+      "modifier": {
+        "id": "tiered:water_spell_power",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "id": "tiered:spell_haste",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.03
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

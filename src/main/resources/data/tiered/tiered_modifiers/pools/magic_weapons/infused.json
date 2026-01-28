@@ -1,0 +1,26 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "rpg_series:weapon_type/damage_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_wand"
+    },
+    {
+      "tag": "rpg_series:weapon_type/healing_wand"
+    }
+  ],
+  "tiers": [
+    "tiered:infusions/air_infused",
+    "tiered:infusions/arcane_infused",
+    "tiered:infusions/earth_infused",
+    "tiered:infusions/fire_infused",
+    "tiered:infusions/frost_infused",
+    "tiered:infusions/light_infused",
+    "tiered:infusions/water_infused"
+  ]
+}
