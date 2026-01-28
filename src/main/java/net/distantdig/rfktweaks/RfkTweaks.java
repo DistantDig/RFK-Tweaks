@@ -1,6 +1,8 @@
 package net.distantdig.rfktweaks;
 
 import com.mojang.logging.LogUtils;
+import net.distantdig.rfktweaks.particle.ParticleRegistry;
+import net.distantdig.rfktweaks.particle.SignGilder;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -10,6 +12,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -18,9 +21,7 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(RfkTweaks.MODID)
 public class RfkTweaks {
-    // Define mod id in a common place for everything to reference
     public static final String MODID = "rfk_tweaks";
-    // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -33,6 +34,8 @@ public class RfkTweaks {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ParticleRegistry.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -62,6 +65,10 @@ public class RfkTweaks {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
 
+        }
+        @SubscribeEvent
+        public static void registerParticleFactories(final RegisterParticleProvidersEvent event) {
+            event.registerSpriteSet(ParticleRegistry.GILDER_PARTICLE.get(), SignGilder.Provider::new);
         }
     }
 }
